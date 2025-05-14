@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="logo.png" alt="Logo Pondok Pesantren" class="logo">
+            <h1>Pendaftaran Pondok Pesantren</h1>
+        </header>
+        <form action="#" method="post">
+            <label for="name">Nama Lengkap:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+
+            <label for="birthdate">Tanggal Lahir:</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            <br>
+
+            <label>Jenis Kelamin:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Laki-laki</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Perempuan</label>
+
+            <label for="level">Tingkat Pendidikan:</label>
+            <br>
+            <select id="level" name="level" required>
+                <option value="">Pilih Tingkat</option>
+                <option value="sd">SD</option>
+                <option value="smp">SMP</option>
+                <option value="sma">SMA</option>
+                <option value="ma">MA</option>
+            </select>
+
+            <input type="submit" value="Daftar">
+        </form>
+    </div>
+    
+</body>
+</html>
